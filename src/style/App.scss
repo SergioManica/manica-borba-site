@@ -1,4 +1,100 @@
-#root {
+@use "./Reset.scss";
 
+//HEADER
+
+.container-fluid {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  height: 10%;
+  width: 100%;
+//   background-color: grey;
+
+  .logo {
+    width: 8rem;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+    // background-color: greenyellow;
+  }
+
+  .navbar-mobile {
+    margin-left: auto;
+    color: white;
+  }
 }
 
+//HOME
+
+.home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(128, 128, 128, 0.573);
+  z-index: -1;
+  background-image: linear-gradient(black, transparent);
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("../assets/imageLaw02.jpg");
+  background-size: cover;
+  background-position: center;
+  isolation: isolate;
+
+  .slide-container {
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10rem;
+
+    .text {
+      font-size: 1.75rem;
+      font-weight: 500;
+      width: 80%;
+      padding: 0.5rem;
+      color: rgb(255, 255, 255);
+      box-sizing: border-box;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.166);
+      backdrop-filter: blur(2px);
+      border-radius: 1rem;
+    }
+
+    .btn-services {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0.275rem;
+      color: rgb(255, 255, 255);
+      border-radius: 1rem;
+      margin-top: 3rem;
+      background-color: #99861b;
+    }
+
+    .slide-nav {
+      width: 10rem;
+      display: flex;
+      justify-content: space-around;
+
+      .icons-nav {
+        background-color: transparent;
+        border: 2px solid;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}
