@@ -1,12 +1,10 @@
-
-
 function AboutUs() {
   return (
     <>
       <section className="about-us-container">
         <div className="img-container"></div>
         <div className="text-about-us">
-          <h1>SOBRE NÓS</h1>
+          <h2>SOBRE NÓS</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eum
             quia exercitationem nulla atque, dignissimos quam commodi voluptates
