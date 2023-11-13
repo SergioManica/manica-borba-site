@@ -10,7 +10,7 @@ export function ProfessionalsPage() {
         <div className="separators"></div>
         <Professionals
           photo={BiancaImage}
-          name="Biaca Viegas Manica"
+          name="Bianca Viegas Manica"
           position="CEO e Sócio-Fundadora"
           location="Porto Alegre/RS"
           phoneNumber="(51) 99792-9924"
