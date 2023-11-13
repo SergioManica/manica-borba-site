@@ -48,7 +48,7 @@ function Professionals({
       <div className="professionals-img-container">
         <div className="professional-cards">
           <div className="professional-img">
-            <img src={photo} alt="" />
+            <img src={photo} alt="Foto Profissional" />
           </div>
           <div className="basic-information">
             <ol className="identification">
