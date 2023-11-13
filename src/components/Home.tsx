@@ -1,7 +1,9 @@
 import AboutUs from "./AboutUs";
 import Header from "./Header";
 import OurValues from "./OurValues";
-import Professionals from "./Professionals";
+import  { ProfessionalsPage } from "./Professionals";
+
+
 
 function Home() {
   return (
@@ -23,8 +25,7 @@ function Home() {
       </section>
       <AboutUs />
       <OurValues />
-      <Professionals/>
-
+      <ProfessionalsPage/>
     </>
   );
 }

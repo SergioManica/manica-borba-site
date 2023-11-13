@@ -236,16 +236,12 @@ gap: 2rem;
    
 
   img{
-    object-fit: cover;
+    object-fit: contain;
     height: 17rem;
     width: 17rem;
   }
-  
-  
-  .icons{
-    padding: 0 1rem;
-  }
 }
+
 .basic-information{
   display: flex;
   gap: 1rem;
@@ -274,4 +270,5 @@ gap: 2rem;
 
 .information-line{
   display: inline-flex;
+  gap: 0.25rem;
 }

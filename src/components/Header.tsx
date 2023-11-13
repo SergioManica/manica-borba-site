@@ -1,5 +1,6 @@
 // import * as Dialog from '@radix-ui/react-dialog';
-import MenuIcon from "./MenuIcon";
+import { List } from "@phosphor-icons/react";
+
 
 function Header() {
   return (
@@ -9,11 +10,11 @@ function Header() {
       </div>
       <nav className="navbar-mobile navbar-desktop">
         <button>
-          <MenuIcon />
+        <List size={56} />
         </button>
       </nav>
     </header>
   );
-}
+} 
 
 export default Header;
