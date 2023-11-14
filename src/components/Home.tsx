@@ -1,15 +1,13 @@
 import AboutUs from "./AboutUs";
 import Header from "./Header";
 import OurValues from "./OurValues";
-import  { ProfessionalsPage } from "./Professionals";
-
-
+import { ProfessionalsPage } from "./Professionals";
 
 function Home() {
   return (
     <>
+      <Header />
       <section className="home">
-        <Header />
         <div className="slide-container">
           <div className="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -25,7 +23,7 @@ function Home() {
       </section>
       <AboutUs />
       <OurValues />
-      <ProfessionalsPage/>
+      <ProfessionalsPage />
     </>
   );
 }
