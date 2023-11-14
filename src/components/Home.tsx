@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import AreasOfExpertise from "./AreasOfExpertise";
 import Header from "./Header";
 import OurValues from "./OurValues";
 import { ProfessionalsPage } from "./Professionals";
@@ -24,6 +25,7 @@ function Home() {
       <AboutUs />
       <OurValues />
       <ProfessionalsPage />
+      <AreasOfExpertise/>
     </>
   );
 }
